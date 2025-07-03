@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sugar Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-logo">Sugar Portfolio</div>
+      <nav>
+        <ul class="gnav-list">
+          <li class="gnav-item"><a href="#profile">Profile</a></li>
+          <li class="gnav-item"><a href="#skill">Skill</a></li>
+          <li class="gnav-item"><a href="#works">Works</a></li>
+          <li class="gnav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="content">
+    <section class="main" id="hero">
+      <div class="main-container container">
+        <div class="main-content">
+          <h1 class="main-title">Frontend & Design</h1>
+          <p class="main-subtitle">
+            見やすく使いやすい、<br>親しみやすいウェブサイトをお届けします。
+          </p>
+          <p class="main-text">
+            あなたの伝えたいことを、<br>しっかりと伝えるホームページを作ります。
+          </p>
+          <div class="main-buttons">
+            <a href="#works" class="btn btn-primary">制作実績を見る</a>
+            <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+          </div>
+        </div>
+        <div class="main-visual">
+          <div class="visual-circle circle-1"></div>
+          <div class="visual-circle circle-2"></div>
+          <div class="visual-circle circle-3"></div>
+          <!-- 必要に応じてプロフィール画像やイラストを追加 -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profile">
+      <div class="container profile">
+        <div class="profile-img">
+          <img src="img/profileimg.jpg" alt="プロフィール画像">
+        </div>
+        <div class="profile-body">
+          <h2 class="title">Profile</h2>
+          <p>えべつ10th、わーぷれ10th、すなばこapi、Webでざいん5th</p>
+          <p>業務系ソフトウェア開発経験があるengineer</p>
+          <p>Mizuno好きな週末フットサラー。夏場はキャンプへ行きます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skill">
+      <div class="container">
+        <h2 class="title">Skill</h2>
+        <div class="skill-list">
+          <div>
+            <h3>HTML5/CSS3</h3>
+            <p>レスポンシブデザインでの記述が可能です。</p>
+          </div>
+          <div>
+            <h3>Python/Flask</h3>
+            <p>環境設定し、アプリ開発経験があります。</p>
+          </div>
+          <div>
+            <h3>JavaScript</h3>
+            <p>JQueryなど部分的に動作するコードの記述が可能です。</p>
+          </div>
+          <div>
+            <h3>コミュニケーションツール</h3>
+            <p>Microsoft TeamsやSlackなど使用経験あり</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="works">
+      <div class="container">
+        <h2 class="title">Works</h2>
+        <div class="works-list">
+          <div class="works-item">
+            <a href="works-template.html" style="display:block; color:inherit; text-decoration:none;">
+              <div class="works-img">
+                <img src="img/swfc-thumb.png" alt="SAPPORO WALKING FC サイトサムネイル">
+              </div>
+              <div class="works-content">
+                <div class="works-name">SAPPORO WALKING FC</div>
+                <div class="works-info">
+                  <strong>詳細を見る</strong>
+                </div>
+                <div class="works-tags">
+                  <span class="tag">WordPress</span>
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">PHP</span>
+                </div>
+                <p>
+                  札幌で活動するウォーキングサッカーチーム「SAPPORO WALKING FC」のWebサイトを制作しました。
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- 他の制作実績も追加可能 -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="title">Contact</h2>
+        <p>お問い合わせは、メールにてお願いいたします。</p>
+        <p><a href="mailto:Sugar@xxxxxx.com" class="btn btn-primary">Sugar@xxxxxx.com</a></p>
+      </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
